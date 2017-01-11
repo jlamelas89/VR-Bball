@@ -28,25 +28,27 @@ public final class R {
         public static final int transition=0x7f020005;
     }
     public static final class id {
-        public static final int back_button=0x7f080001;
-        public static final int divider=0x7f080007;
-        public static final int transition_bottom_frame=0x7f080005;
-        public static final int transition_frame=0x7f080000;
-        public static final int transition_icon=0x7f080003;
-        public static final int transition_question_text=0x7f080006;
-        public static final int transition_switch_action=0x7f080008;
-        public static final int transition_text=0x7f080004;
-        public static final int transition_top_frame=0x7f080002;
-        public static final int ui_alignment_marker=0x7f08000a;
-        public static final int ui_back_button=0x7f080009;
-        public static final int ui_settings_button=0x7f08000b;
+        public static final int back_button=0x7f080002;
+        public static final int divider=0x7f080008;
+        public static final int return_button=0x7f080000;
+        public static final int transition_bottom_frame=0x7f080006;
+        public static final int transition_frame=0x7f080001;
+        public static final int transition_icon=0x7f080004;
+        public static final int transition_question_text=0x7f080007;
+        public static final int transition_switch_action=0x7f080009;
+        public static final int transition_text=0x7f080005;
+        public static final int transition_top_frame=0x7f080003;
+        public static final int ui_alignment_marker=0x7f08000b;
+        public static final int ui_back_button=0x7f08000a;
+        public static final int ui_settings_button=0x7f08000c;
     }
     public static final class layout {
         public static final int back_button=0x7f030000;
-        public static final int settings_button=0x7f030001;
-        public static final int transition_view=0x7f030002;
-        public static final int ui_layer=0x7f030003;
-        public static final int ui_layer_with_portrait_support=0x7f030004;
+        public static final int dialog=0x7f030001;
+        public static final int settings_button=0x7f030002;
+        public static final int transition_view=0x7f030003;
+        public static final int ui_layer=0x7f030004;
+        public static final int ui_layer_with_portrait_support=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f060018;
@@ -70,6 +72,7 @@ public final class R {
         public static final int no_browser_text=0x7f060011;
         public static final int place_your_phone_into_cardboard=0x7f060012;
         public static final int place_your_viewer_into_viewer_format=0x7f060013;
+        public static final int return_to_vr=0x7f060019;
         public static final int settings_button_content_description=0x7f060014;
         public static final int setup_button=0x7f060015;
         public static final int switch_viewer_action=0x7f060016;

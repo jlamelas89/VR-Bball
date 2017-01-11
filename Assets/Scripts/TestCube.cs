@@ -29,15 +29,15 @@ public class TestCube : MonoBehaviour, IGvrGazeResponder {
 		Debug.Log ("blah");
 	}
 
-	public void ToggleDistortionCorrection() {
-		GvrViewer.Instance.DistortionCorrectionEnabled =
-			!GvrViewer.Instance.DistortionCorrectionEnabled;
-	}
+//	public void ToggleDistortionCorrection() {
+//		GvrViewer.Instance.DistortionCorrectionEnabled =
+//			!GvrViewer.Instance.DistortionCorrectionEnabled;
+//	}
 
 	#if !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
-	public void ToggleDirectRender() {
-		GvrViewer.Controller.directRender = !GvrViewer.Controller.directRender;
-	}
+//	public void ToggleDirectRender() {
+//		GvrViewer.Controller.directRender = !GvrViewer.Controller.directRender;
+//	}
 	#endif  //  !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
 
 	#region IGvrGazeResponder implementation

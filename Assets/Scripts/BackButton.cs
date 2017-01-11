@@ -41,10 +41,10 @@ public class BackButton : MonoBehaviour {
 		this.transform.position = newPos;
 	}
 
-	public void ToggleDistortionCorrection() {
-		GvrViewer.Instance.DistortionCorrectionEnabled =
-			!GvrViewer.Instance.DistortionCorrectionEnabled;
-	}
+//	public void ToggleDistortionCorrection() {
+//		GvrViewer.Instance.DistortionCorrectionEnabled =
+//			!GvrViewer.Instance.DistortionCorrectionEnabled;
+//	}
 
 	private void MainMenu() {
 		print ("Swap to Main Menu");
@@ -52,9 +52,9 @@ public class BackButton : MonoBehaviour {
 	}
 
 	#if !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
-	public void ToggleDirectRender() {
-		GvrViewer.Controller.directRender = !GvrViewer.Controller.directRender;
-	}
+//	public void ToggleDirectRender() {
+//		GvrViewer.Controller.directRender = !GvrViewer.Controller.directRender;
+//	}
 	#endif  //  !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
 
 	#region IGvrGazeResponder implementation
