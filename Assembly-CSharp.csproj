@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DisableCamera.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
@@ -150,16 +149,21 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
-     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\MultiHoop.cs" />
      <Compile Include="Assets\Scripts\BackButton.cs" />
      <Compile Include="Assets\Scripts\Backboard.cs" />
      <Compile Include="Assets\Scripts\Basketball.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\CreateGame.cs" />
+     <Compile Include="Assets\Scripts\DisableCamera.cs" />
      <Compile Include="Assets\Scripts\GPSLocationService.cs" />
      <Compile Include="Assets\Scripts\GPSText.cs" />
      <Compile Include="Assets\Scripts\Hoop.cs" />
+     <Compile Include="Assets\Scripts\HoopSpawner.cs" />
+     <Compile Include="Assets\Scripts\JoinGame.cs" />
      <Compile Include="Assets\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerDataUtility.cs" />
      <Compile Include="Assets\Scripts\Rim.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />

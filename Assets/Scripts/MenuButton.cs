@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 [RequireComponent(typeof(Collider))]
 public class MenuButton : MonoBehaviour {
@@ -27,7 +28,11 @@ public class MenuButton : MonoBehaviour {
 		print (gazedAt);
 //		if(gazedAt == true)
 ////			HoverState();
-			GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
+//		if (gazedAt == true)
+//			GetComponent<Renderer> ().material.color = Color.green;
+//		else
+//			GetComponent<Renderer> ().material.color = new Color (0.45f, 0.50f, 0.71f);
+		GetComponent<Renderer>().material.color = gazedAt ? Color.green : new Color(0.45f, 0.50f, 0.71f);
 		//		Debug.Log(gazedAt);
 
 	}

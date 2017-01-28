@@ -1,24 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" Line="596" Column="23" NotebookId="1" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="49" Column="19" NotebookId="1" />
       <File FileName="Assets/Scripts/Hoop.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/Basketball.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/Backboard.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/PlayerDataUtility.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/Rim.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/Controller.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/TestCube.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/CreateGame.cs" Line="93" Column="3" NotebookId="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="59" Column="65" NotebookId="2" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="2985" Y="23" Width="855" Height="480">
-        <Files>
-          <File FileName="Assets/Scripts/Button.cs" Line="7" Column="2" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
